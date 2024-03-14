@@ -1,0 +1,27 @@
+<head>
+  <style>
+    div {
+      color: royalblue;
+    }
+    span {
+      color: red;
+    }
+    .done {
+      color: palevioletred;
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+  <h1>투두리스트</h1>
+  <div>할 일들</div>
+  <p>치킨먹기</p>
+  <p id="산책시키기">연탄이 산책시키기</p>
+  <p>휴식</p>
+</body>
+<script>
+  const p1 = document.querySelector("#산책시키기");
+  p1.addEventListener("click", () => {
+    alert("클릭되었습니다!");
+  });
+</script>
