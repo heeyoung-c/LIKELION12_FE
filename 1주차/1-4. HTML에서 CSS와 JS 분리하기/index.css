@@ -1,0 +1,10 @@
+div {
+  color: royalblue;
+}
+span {
+  color: red;
+}
+.done {
+  color: palevioletred;
+  text-decoration: line-through;
+}
