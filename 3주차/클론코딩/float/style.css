@@ -1,0 +1,36 @@
+.parent {
+  width: 400px;
+  background-color: gray;
+  margin: 0 auto;
+}
+.parent::after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.child1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  float: left;
+}
+
+.child2 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  float: left;
+}
+
+.child3 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  float: left;
+}
+
+.text1 {
+  background-color: black;
+  color: white;
+}
