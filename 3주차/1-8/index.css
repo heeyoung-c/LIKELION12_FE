@@ -1,0 +1,29 @@
+body {
+  font-family: "Not Sans KR";
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid;
+}
+
+button {
+  border: none;
+  background-color: skyblue;
+
+  cursor: pointer;
+}
+button:hover {
+  background-color: cornflowerblue;
+  transition-duration: 0.4s;
+}
+
+.todo {
+  cursor: pointer;
+}
+
+.done {
+  color: gray;
+  text-decoration: line-through;
+}
