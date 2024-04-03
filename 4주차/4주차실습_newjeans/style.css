@@ -4,7 +4,7 @@
 
 .parentbox {
   width: 1200px;
-  height: 2000px;
+  height: 1000px;
   background-color: pink;
   margin: 0 auto;
   padding-top: 250px;
@@ -29,38 +29,27 @@
   left: 50px;
   width: 325px;
 }
-.shirts {
-}
-.airpodmax {
-}
+
 .ballcap {
   position: absolute;
   top: 60px;
   left: 86px;
   width: 314px;
 }
-.boxing {
-}
+
 .coffee {
   position: absolute;
   top: 190px;
   left: 20px;
   width: 314px;
 }
-.cookie {
-}
+
 .hanbok {
   z-index: 2;
   position: absolute;
   top: 126px;
   left: 92px;
   width: 234px;
-}
-.hamburger {
-}
-.jacket_c {
-}
-.jacket_o {
 }
 
 .rabbit.imgimg {
