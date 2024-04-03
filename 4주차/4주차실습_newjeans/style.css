@@ -5,15 +5,22 @@
 .parentbox {
   width: 1200px;
   height: 1000px;
-  background-color: pink;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+
   margin: 0 auto;
   padding-top: 250px;
 }
 
 .box {
+  border-radius: 10px;
   width: 400px;
   height: 400px;
-  background-color: white;
+  background-image: linear-gradient(
+    to top,
+    #fdcbf1 0%,
+    #fdcbf1 1%,
+    #e6dee9 100%
+  );
   border: 6px solid lemonchiffon;
   margin: 0 auto;
   position: relative;
@@ -49,7 +56,7 @@
   position: absolute;
   top: 126px;
   left: 92px;
-  width: 234px;
+  width: 232px;
 }
 
 .rabbit.imgimg {
