@@ -3,12 +3,15 @@
 }
 
 .parentbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+
   width: 1200px;
-  height: 1000px;
+  height: 2000px;
   background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
 
   margin: 0 auto;
-  padding-top: 250px;
 }
 
 .box {
@@ -22,8 +25,13 @@
     #e6dee9 100%
   );
   border: 6px solid lemonchiffon;
-  margin: 0 auto;
   position: relative;
+
+  transition: opacity 0.4s;
+}
+
+.box:hover {
+  opacity: 0;
 }
 
 .imgimg {
