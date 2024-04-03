@@ -5,7 +5,7 @@
 .parentbox {
   width: 1200px;
   height: 2000px;
-  background-color: gray;
+  background-color: pink;
   margin: 0 auto;
   padding-top: 250px;
 }
@@ -14,7 +14,7 @@
   width: 400px;
   height: 400px;
   background-color: white;
-  border: 6px solid black;
+  border: 6px solid lemonchiffon;
   margin: 0 auto;
   position: relative;
 }
